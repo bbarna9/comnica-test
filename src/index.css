@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Handling the overflow of the background decoration elements */
+
+@media (min-width: 768px) {
+  body {
+    overflow: hidden;
+  }
+}
